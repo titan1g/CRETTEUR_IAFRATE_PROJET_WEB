@@ -27,7 +27,7 @@ body{
 .icon-bar a {
   float: left;
   position:relative ;
-  margin-left: 55%;
+  margin-left: 5%;
   text-align: center; 
   width: 0%; 
   padding: 0px 0; 
@@ -37,6 +37,38 @@ body{
   margin-top: 10px;
 }
 
+.icon-bar a:hover, label {
+  filter: brightness(120%);
+  transition: filter 0.25s ease;
+}
+
+
+
+
+.carte {
+  margin-left: 53%;
+  width: 40%;  
+  overflow: auto; 
+  background-color: darkslateblue;
+  position:absolute;
+  position: fixed;
+  display: block;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+.carte a {
+  float: left;
+  position:relative ;
+  margin-left: 0%;
+  text-align: center; 
+  width: 20%; 
+  padding: 7px 0; 
+  transition: all 0.3s ease;
+  color: #fff; 
+  font-size: 0px; 
+  margin-top: 10px;
+}
 
 
 
@@ -63,12 +95,13 @@ body{
 
 
 .navigation {
-  width: 100%;
+  width: 99%;
 }
 .maison{
   position: absolute;
   margin-left: 40%;
   cursor: pointer;
+  margin-top: 11px;
 }
 .mainmenu, .submenu {
 list-style: none;
@@ -90,24 +123,31 @@ display: none;
 }
 /* if a sibling checkbox is check show the menu */
 .mainmenu input:checked ~ .submenu {
-display: block;
-max-height: 200 px;
+  position:relative;
+  display:block;
+  max-height: 300px;
+  width: auto;
+background-color: aqua;
 }
 
-.submenu{
-
-overflow: auto;
+.submenu {
+background-color: blue;
+overflow:scroll;
 max-height: 0;
+max-width: 100%;
 transition: all 0.3s ease-out;
-z-index: 1;
+z-index: 10;
+margin-top: 6%;
+text-align: center;
+
 }
 
 
 
 .Akshan{
-  position: absolute;
-  left: 0%;
-  right: 10%;
+  display: inline-block;
+  
+  margin-left: 10%;
 }
 
 
