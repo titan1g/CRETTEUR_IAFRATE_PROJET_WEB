@@ -1,0 +1,188 @@
+.icon-bar {
+    z-index: 50;
+    margin-left: -1%;
+    width: 101%;  
+    overflow: auto; 
+    background-color: rgba(13, 14, 14, 1);
+    position: fixed;
+    display: block;
+    margin-top: -1%;
+  }
+  .icon-bar a {
+    float: left;
+    position:relative ;
+    margin-left: 4.5%;
+    text-align: center; 
+    width: 0%; 
+    padding: 0px 0; 
+    transition: all 0.3s ease;
+    color: white; 
+    font-size: 0px; 
+    margin-top: 10px;
+  }
+  
+  .icon-bar a:hover {
+    filter: brightness(120%);
+    transition: filter 0.25s ease;
+    
+  }
+  .icon-bar label:hover{
+    filter: brightness(140%);
+   transform: scale(1.1);
+   transition: filter 0.25s ease;
+  }
+  
+  
+  
+  
+  .carte {
+    margin-left: 53%;
+    z-index: 55;
+    width: 40%;  
+    overflow: auto; 
+    background-color: rgba(13, 14, 14, 0.5);
+    position:absolute;
+    position: fixed;
+    display: block;
+    
+    margin-top: 0.2%;
+  }
+  
+  .carte a {
+    float: left;
+    position:relative ;
+    margin-left: 190%;
+    text-align: center; 
+    width: 20%; 
+    padding: 7px 0; 
+    transition: all 0.3s ease;
+    color: #fff; 
+    font-size: 0px; 
+  }
+
+
+
+  .poutre{
+    background:
+    linear-gradient(
+      to right,
+      rgb(13, 14, 14, 0.5),
+      rgb(13, 14, 14, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+  }
+
+  .poutre:hover{
+
+    filter: brightness(140%);
+    transform: scale(1.1);
+    background-size: 0 3px, 150% 3px;
+  }
+  .trait{
+    background:
+    linear-gradient(
+      to right,
+      rgba(13, 14, 14, 0.5),
+      rgba(13, 14, 14, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+  }
+  
+  .trait:hover{
+    filter: brightness(140%);
+    transform: scale(1.1);
+    background-size: 0 3px, 150% 3px;
+  }
+
+
+  .logo {
+    margin-left: 0%;
+  
+    width: 50%;  
+    overflow: auto; 
+    background-color: rgba(13, 14, 14, 0.75);
+    position: absolute;
+    display: block;
+  }
+  .logo a {
+    float: left;
+    position:relative ;
+    margin-left: 0%;
+    text-align: center; 
+    width: 20%; 
+    padding: 7px 0; 
+    transition: all 0.3s ease;
+    color: #fff; 
+    font-size: 0px; 
+  }
+  
+  
+  
+  
+  .navigation {
+    width: 99%;
+    z-index: 50;
+  }
+  .content{
+    position: absolute;
+    margin-left: 40%;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+  .mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  }
+  .mainmenu a, .mainmenu label {
+  display: block;
+  text-decoration: none;
+  padding: 0px;
+  color: #000;
+  }
+  
+  
+  /* hide the input */
+  .mainmenu input {
+  display: none;
+  }
+  /* if a sibling checkbox is check show the menu */
+  .mainmenu input:checked ~ .submenu {
+    position:relative;
+    display:block;
+    max-height: 300px;
+    width: auto;
+    background-color: rgba(13, 14, 14, 0.75);
+  }
+  
+  .submenu {
+    background-color: rgba(13, 14, 14, 0.5);
+  overflow:scroll;
+  max-height: 0;
+  max-width: 100%;
+  transition: all 0.3s ease-out;
+  z-index: 10;
+  margin-top: 5%;
+  text-align: center;
+  
+  }
+  
