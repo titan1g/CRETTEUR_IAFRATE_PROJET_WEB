@@ -1,0 +1,52 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    scrollbar-width: thin;
+    scrollbar-color: blue black;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 10px solid ;
+  }
+  
+  
+  body{
+    color: white;
+    margin-left: -1.5px;
+    margin-top: 000px;
+    margin-bottom: 100px;
+    background-image: url("../images/fonds/fond-chara\(1\).png");
+    background-position: 0px 80px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+.parchemin{
+  margin-top: 4%;
+ margin-left: -0.25%;
+  width: 100.3%;
+  position: absolute;
+  margin-left: -1%;
+}
+
+.bar{
+  position: absolute;
+  margin-left: 54.1%;
+  margin-top: 8.8%;
+  width: 42%;
+  
+}
+
+.video{
+  margin-left: 15%;
+  margin-top: 40%;
+}
+
+.akshan{
+  position: absolute;
+  margin-top: 5%;
+  width: 72.5%;
+  margin-left: -16%;
+}
