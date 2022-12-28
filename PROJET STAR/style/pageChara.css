@@ -40,8 +40,9 @@
 }
 
 .video{
-  margin-left: 15%;
+  margin-left: 16%;
   margin-top: 40%;
+  margin-bottom: 12%;
 }
 
 .akshan{
@@ -49,4 +50,59 @@
   margin-top: 5%;
   width: 72.5%;
   margin-left: -16%;
+}
+
+.belveth{
+  position: absolute;
+  margin-top: 5%;
+  width: 72.5%;
+  margin-left: -20%;
+}
+
+.gwen{
+  position: absolute;
+  margin-top: 2%;
+  width: 65%;
+  margin-left: -17%;
+}
+
+.ksante{
+  position: absolute;
+  margin-top: 3.32%;
+  width: 72%;
+  margin-left: -17%;
+}
+
+.lillia{
+  position: absolute;
+  margin-top: 5.3%;
+  width: 72%;
+  margin-left: -10%;
+}
+
+.renata{
+  position: absolute;
+  margin-top: 5.3%;
+  width: 72%;
+  margin-left: -20%;
+}
+
+.senna{
+  position: absolute;
+  margin-top: 4.7%;
+  width: 73%;
+  margin-left: -20%;
+}
+
+.vex{
+  position: absolute;
+  margin-top: 5.2%;
+  width: 73%;
+  margin-left: -20%;
+}
+.yuumi{
+  position: absolute;
+  margin-top: 0%;
+  width: 73%;
+  margin-left: -15%;
 }
