@@ -106,3 +106,58 @@
   width: 73%;
   margin-left: -15%;
 }
+
+.competence1{
+  position: absolute;
+}
+.competence1txt{
+  position: absolute;
+  color: black;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.competence2{
+  position: absolute;
+  margin-top: 15%;
+}
+.competence2txt{
+  position: absolute;
+  color: black;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.competence3{
+  position: absolute;
+  margin-top: 30%;
+}
+.competence3txt{
+  position: absolute;
+  color: black;
+  margin-left: 15%;
+  margin-top: 35%;
+}
+.competence4{
+  position: absolute;
+  margin-left: 50%;
+}
+.competence4txt{
+  position: absolute;
+  color: black;
+  margin-left: 65%;
+  margin-top: 5%;
+}
+.competence5{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 15%;
+}
+.competence5txt{
+  position: absolute;
+  color: black;
+  margin-left: 65%;
+  margin-top: 20%;
+}
+
+.lorespace{
+  margin-top: 20px;
+}
