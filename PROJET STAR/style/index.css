@@ -22,10 +22,11 @@ body{
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .arbre{
-  margin-top: 13%;
+  margin-top: 14%;
   margin-left: -1%;
   width: auto;
   height: 50%;
@@ -33,6 +34,39 @@ body{
   text-decoration: none;
 }
 
+.parchemin3{
+  position: absolute;
+  margin-left: -1%;
+  width: 100.3%;
+  margin-top: 80%;
+}
+
+
+.eclairzeri{
+  position: absolute;
+  margin-top: 80%;
+  margin-left: -10%;
+}
+
+.etoilemontante{
+  position: absolute;
+  margin-top: 95%;
+  color: black;
+  margin-left: 65%;
+}
+
+.zeri22{
+  position: absolute;
+  margin-top: 100%;
+  color: black;
+  margin-left: 72%;
+  font-size: 10vh;
+}
+.zeri22:hover {
+  filter: brightness(120%) drop-shadow(0 0 1rem black);
+  text-shadow: 0 0 1px #ffeab3, 0 0 10px #fff, 0 0 10px #000, 0 0 10px #faf322, 0 0 1px #1a1713;
+  transition: 0.5ms;
+}
 
 
 

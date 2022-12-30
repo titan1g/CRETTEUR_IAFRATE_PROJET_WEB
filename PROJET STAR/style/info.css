@@ -1,16 +1,99 @@
-body{
-    color: white;
-    margin-left: -1.5px;
-    margin-top: 000px;
-    margin-bottom: 100px;
-    background-image: url("../images/fonds/wallpaperpagechara.jpg");
-    background-position: 0px 80px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-  }
+
 
 .fondnews{
-    position: absolute;
     width: 98%;
+    margin-bottom: -0.6%;
+}
+
+
+
+*{
+  margin: 2px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: blue black;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 10px solid ;
+}
+
+
+body{
+  
+  margin-left: -1.5px;
+  margin-top: 000px;
+  margin-bottom: 100px;
+  background-image: url("../images/fonds/fond-chara\(1\).png");
+  background-position: 0px 80px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  
+}
+
+
+.allArticles{
+  width: 40vw;
+  position: absolute;
+  left: 10vw;
+  padding: 10vh 5vw;
+  background-color: rgba(57, 59, 64, 0);
+  margin-left: 14%;
+}
+
+.singleArticles {
+  height: 7vw;
+  margin: 1vw 0;
+  padding: 1% 1.5%;
+}
+.singleArticles a {
+  position: relative;
+  height: 100%;
+  border-radius: 0.5vw;
+  padding: 1% 1.5%;
+  display: flex;
+  border: solid 3px rgba(57, 59, 64, 0);
+  transition: border-color 0.2s linear;
+  background-color:beige;
+  cursor: pointer;
+  text-decoration: none;
+}
+.articlesImg1 {
+  background-image: url("../images/news/actu1.jpg");
+  background-size: cover;
+}
+.articlesImg2 {
+  background-image: url("../images/news/actu2.jpg");
+  background-size: cover;
+}
+.articlesImg3 {
+  background-image: url("../images/news/actu3.jpg");
+  background-size: cover;
+}
+.articlesImg4 {
+  background-image: url("../images/news/actu4.jpg");
+  background-size: cover;
+}
+.articlesImg5 {
+  background-image: url("../images/news/actu5.jpg");
+  background-size: cover;
+}
+
+.articlesImg1, .articlesImg2, .articlesImg3, .articlesImg4, .articlesImg5, .articlesImg6 {
+  width: 24%;
+  height: 100%;
+}
+.articlesContent {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+  text-shadow: None;
+  color: black;
+  margin-left: 2%;
 }
