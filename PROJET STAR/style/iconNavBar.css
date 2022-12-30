@@ -83,7 +83,7 @@ transition: background-size 2s;
 
 .poutre:hover{
 
-  filter: brightness(140%);
+  filter: brightness(110%);
   transform: scale(1.1);
   background-size: 0 3px, 150% 3px;
 }
@@ -107,7 +107,7 @@ transition: background-size 2s;
 }
 
 .trait:hover{
-  filter: brightness(140%);
+  filter: brightness(90%);
   transform: scale(1.1);
   background-size: 0 3px, 150% 3px;
 }
