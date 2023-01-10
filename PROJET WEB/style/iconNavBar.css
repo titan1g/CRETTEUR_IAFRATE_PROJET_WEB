@@ -40,7 +40,7 @@
   z-index: 55;
   width: 40%;  
   overflow: auto; 
-  background-color: rgba(13, 14, 14, 0.5);
+  background-color: rgba(13, 14, 14, 1);
   position:absolute;
   position: fixed;
   display: block;
@@ -118,7 +118,7 @@ transition: background-size 2s;
 
   width: 50%;  
   overflow: auto; 
-  background-color: rgba(13, 14, 14, 0.75);
+  background-color:rgb(13, 14, 14, 1);
   position: absolute;
   display: block;
 }
@@ -145,7 +145,7 @@ transition: background-size 2s;
   position: absolute;
   margin-left: 40%;
   cursor: pointer;
-  margin-top: 11px;
+  margin-top: 20px;
 }
 .mainmenu, .submenu {
 list-style: none;
@@ -157,7 +157,7 @@ margin: 0;
 display: block;
 text-decoration: none;
 padding: 0px;
-color: #000;
+color: #fff
 }
 
 
@@ -171,11 +171,11 @@ display: none;
   display:block;
   max-height: 300px;
   width: auto;
-  background-color: rgba(13, 14, 14, 0.75);
+  background-color: rgba(13, 14, 14, 1);
 }
 
 .submenu {
-  background-color: rgba(13, 14, 14, 0.5);
+  background-color: rgba(13, 14, 14, 1);
 overflow:scroll;
 max-height: 0;
 max-width: 100%;

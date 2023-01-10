@@ -1,7 +1,10 @@
+
+
 *{
   margin: 2px;
   padding: 2px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   scrollbar-width: thin;
   scrollbar-color: blue black;
 }
@@ -54,7 +57,12 @@ body{
   color: black;
   margin-left: 65%;
 }
-
+.separation{
+  position: absolute;
+  margin-top: 9%;
+  width: 30%;
+  margin-left: 36%;
+}
 .zeri22{
   position: absolute;
   margin-top: 100%;
@@ -68,5 +76,13 @@ body{
   transition: 0.5ms;
 }
 
+.newsrecentes{
+  position: absolute;
+  margin-left: 41%;
+  margin-top: 10%;
+  font-size: 200%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
 
 
