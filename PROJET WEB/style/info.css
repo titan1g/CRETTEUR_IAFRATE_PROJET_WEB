@@ -79,6 +79,33 @@ body{
   margin-left: 2%;
   margin-top: 20%;
 }
+.allArticles6{
+  width: 40vw;
+  position: absolute;
+  left: 0vw;
+  padding: 10vh 5vw;
+  background-color: rgba(57, 59, 64, 0);
+  margin-left: 45%;
+  margin-top: 20%;
+}
+.allArticles7{
+  width: 40vw;
+  position: absolute;
+  left: 0vw;
+  padding: 10vh 5vw;
+  background-color: rgba(57, 59, 64, 0);
+  margin-left: 2%;
+  margin-top: 30%;
+}
+.allArticles8{
+  width: 40vw;
+  position: absolute;
+  left: 0vw;
+  padding: 10vh 5vw;
+  background-color: rgba(57, 59, 64, 0);
+  margin-left: 45%;
+  margin-top: 30%;
+}
 
 
 
@@ -105,6 +132,21 @@ body{
   padding: 1% 1.5%;
 }
 .singleArticles5 {
+  height: 7vw;
+  margin: 1vw 0;
+  padding: 1% 1.5%;
+}
+.singleArticles6 {
+  height: 7vw;
+  margin: 1vw 0;
+  padding: 1% 1.5%;
+}
+.singleArticles7 {
+  height: 7vw;
+  margin: 1vw 0;
+  padding: 1% 1.5%;
+}
+.singleArticles8 {
   height: 7vw;
   margin: 1vw 0;
   padding: 1% 1.5%;
@@ -172,6 +214,42 @@ body{
   cursor: pointer;
   text-decoration: none;
 }
+.singleArticles6 a {
+  position: relative;
+  height: 90%;
+  border-radius: 0.5vw;
+  padding: 1% 1.5%;
+  display: flex;
+  border: solid 10px black;
+  transition: border-color 0.2s linear;
+  background-color: rgb(29, 35, 35);
+  cursor: pointer;
+  text-decoration: none;
+}
+.singleArticles7 a {
+  position: relative;
+  height: 90%;
+  border-radius: 0.5vw;
+  padding: 1% 1.5%;
+  display: flex;
+  border: solid 10px black;
+  transition: border-color 0.2s linear;
+  background-color: rgb(29, 35, 35);
+  cursor: pointer;
+  text-decoration: none;
+}
+.singleArticles8 a {
+  position: relative;
+  height: 90%;
+  border-radius: 0.5vw;
+  padding: 1% 1.5%;
+  display: flex;
+  border: solid 10px black;
+  transition: border-color 0.2s linear;
+  background-color: rgb(29, 35, 35);
+  cursor: pointer;
+  text-decoration: none;
+}
 
 
 
@@ -196,8 +274,20 @@ body{
   background-image: url("../images/news/actu5.jpg");
   background-size: cover;
 }
+.articlesImg6 {
+  background-image: url("../images/news/coming\ soon.png");
+  background-size: cover;
+}
+.articlesImg7 {
+  background-image: url("../images/news/coming\ soon.png");
+  background-size: cover;
+}
+.articlesImg8 {
+  background-image: url("../images/news/coming\ soon.png");
+  background-size: cover;
+}
 
-.articlesImg1, .articlesImg2, .articlesImg3, .articlesImg4, .articlesImg5, .articlesImg6 {
+.articlesImg1, .articlesImg2, .articlesImg3, .articlesImg4, .articlesImg5, .articlesImg6, .articlesImg7, .articlesImg8  {
   width: 50%;
   height: 100%;
 }
