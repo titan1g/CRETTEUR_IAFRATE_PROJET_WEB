@@ -22,6 +22,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
+    overflow-x: hidden;
    
   }
 .parchemin{
@@ -35,7 +36,7 @@
 .bar{
   position: absolute;
   margin-left: 54.1%;
-  margin-top: 8.8%;
+  margin-top: 5.5%;
   width: 42%;
   
 }

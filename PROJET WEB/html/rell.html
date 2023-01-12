@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style/iconNavChara.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/CharaSkin.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Rell</title>
 </head>
@@ -50,8 +51,46 @@
             </div>
         </div>
         <img src="../images/fonds/parchemin.png" class="parchemin">
-        <img src="../images/personnage corps/rell.png" class="akshan">
+        <style>
+          .slide-1 {
+              background-image: url("../images/personnage\ corps/akshan.png");
+          }
+          
+          .slide-2 {
+              background-image: url("../images/compétences/Akshan_Bien\ mérité.png");
+          }
+          
+          .slide-3 {
+              background-image: url("renata-glasc.png");
+          }
+          
+          .slide-4 {
+              background-image: url("star-guardian-rell.png");
+          }
+              </style>
+        <div class="container">
 
+          <!-- BUTTONS (input/labels) -->
+          <input type="radio" name="slider" id="slide-1-trigger" class="trigger" checked>
+          <label class="btn" for="slide-1-trigger"></label>
+          <input type="radio" name="slider" id="slide-2-trigger" class="trigger">
+          <label class="btn" for="slide-2-trigger"></label>
+          <input type="radio" name="slider" id="slide-3-trigger" class="trigger">
+          <label class="btn" for="slide-3-trigger"></label>
+          <input type="radio" name="slider" id="slide-4-trigger" class="trigger">
+          <label class="btn" for="slide-4-trigger"></label>
+  
+          <!-- SLIDES -->
+          <div class="slide-wrapper">
+              <div id="slide-role">
+                  <div class="slide slide-1"></div>
+                  <div class="slide slide-2"></div>
+                  <div class="slide slide-3"></div>
+                  <div class="slide slide-4"></div>
+              </div>
+          </div>
+  
+      </div>
         <img src="../images/icones/bar.png" class="bar">
 
 

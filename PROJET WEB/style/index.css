@@ -17,6 +17,7 @@
 
 body{
   color: white;
+  overflow: hidden;
   margin-left: -1.5px;
   margin-top: 000px;
   margin-bottom: 100px;

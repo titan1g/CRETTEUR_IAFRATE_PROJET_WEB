@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "beaufort";
+    src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+}
+
 :root {
   --color-primary: #0073ff;
   --color-white: #e9e9e9;
@@ -14,8 +19,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
-  margin-left: 52%;
-  margin-top: 14%;
+  margin-left: 55.5%;
+  margin-top: 10%;
 
   position: relative;
 }
@@ -55,7 +60,7 @@
   display: block;
   position: absolute;
   top: 100%;
-  margin-left: -80%;
+  margin-left: -250%;
   background-color: rgba(red, green, blue, alpha);
 }
 
@@ -75,10 +80,13 @@
 }
 .menu-bar ul li:hover .dropdown-menu ul li h1{
   color: black;
+  font-family: "beaufort", serif;
 }
 
 .menu-bar ul li:hover .dropdown-menu ul li p{
   color: black;
+  font-family: "beaufort", serif;
+  font-size: 120%;
 }
 
 .lore:hover{
@@ -95,7 +103,7 @@ display: none;
 .menu-bar ul li:hover .manger{    
 display: block;
 position: absolute;
-margin-left: -290%;
+margin-left: -450%;
 top: 100%;
 background-color: rgba(red, green, blue, alpha);
 }
@@ -113,10 +121,12 @@ padding: 0px;
 
 .menu-bar ul li:hover .manger ul li h1{
   color: black;
+  font-family: "beaufort", serif;
 }
 
 .menu-bar ul li:hover .manger ul li p{
   color: black;
+  font-family: "beaufort", serif;
 }
 
 
@@ -131,7 +141,7 @@ display: none;
 .menu-bar ul li:hover .poitrine{
 display: block;
 position: absolute;
-margin-left: -500%;
+margin-left: -650%;
 top: 100%;
 background-color: rgba(red, green, blue, alpha);
 }
@@ -148,10 +158,13 @@ padding: 0px;
 }
 .menu-bar ul li:hover .poitrine ul li h1{
   color: black;
+  font-family: "beaufort", serif;
 }
 
-.menu-bar ul li:hover .poitrines ul li p{
+.menu-bar ul li:hover .poitrine ul li p{
   color: black;
+  font-family: "beaufort", serif;
+  font-size: 120%;
 
 }
 
