@@ -1,9 +1,12 @@
-
+@font-face{
+  font-family: "beaufort";
+  src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+}
 
 *{
   margin: 2px;
   padding: 2px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "beaufort", serif;
   font-weight: 500;
   scrollbar-width: thin;
   scrollbar-color: blue black;
@@ -17,7 +20,7 @@
 
 body{
   color: white;
-  overflow: hidden;
+  
   margin-left: -1.5px;
   margin-top: 000px;
   margin-bottom: 100px;
@@ -82,7 +85,7 @@ body{
   margin-left: 41%;
   margin-top: 10%;
   font-size: 200%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "beaufort", serif;
   
 }
 

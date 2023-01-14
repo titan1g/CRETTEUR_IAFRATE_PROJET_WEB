@@ -1,5 +1,8 @@
 
-  
+  @font-face{
+    font-family: "beaufort";
+    src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+  }
   
   
   .news1 > a{
@@ -14,6 +17,7 @@
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    font-family: "beaufort", serif;
     z-index: 10;
     
   }
@@ -31,6 +35,7 @@
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    font-family: "beaufort", serif;
     z-index: 10;
   }
   
@@ -46,6 +51,7 @@
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    font-family: "beaufort", serif;
     z-index: 10;
   }
   
@@ -66,13 +72,13 @@
     color: #fff;
     margin-top: 58%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "beaufort", serif;
     text-decoration: none;
   }
   
   .textenews{
     color: #fff;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "beaufort", serif;
   }
   

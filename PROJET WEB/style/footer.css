@@ -1,9 +1,12 @@
-
+@font-face{
+    font-family: "beaufort";
+    src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+  }
 footer{
     background: #111;
     height: auto;
     width: 100vw;
-    font-family: "Open Sans";
+    font-family: "beaufort", serif;
     padding-top: 40px;
     color: #fff;
     margin-left: -1%;
@@ -24,6 +27,7 @@ footer{
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
+    font-family: "beaufort", serif;
 }
 
 .footer-content p{
@@ -31,6 +35,7 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+    font-family: "beaufort", serif;
 }
 .socials{
     list-style: none;

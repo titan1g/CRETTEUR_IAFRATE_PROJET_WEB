@@ -2,9 +2,14 @@
     Base Styles
 ===================*/
 
+@font-face{
+    font-family: "beaufort";
+    src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+  }
+
 * {
     box-sizing: border-box;
-    overflow:initial;
+
     
 }
 
@@ -20,7 +25,7 @@ input[type="radio"] {
     height: 100vh;
     width: 100%;
     padding: 0em;
-    margin-left: 0%;
+    margin-left: 1%;
 }
 
 .slide-wrapper {
@@ -31,7 +36,7 @@ input[type="radio"] {
     width: 60%;
     height: 82%;
     border-radius: 0px;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 /*==================
@@ -54,8 +59,8 @@ input[type="radio"] {
 .slide {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
+    background-size:cover  ;
+    background-position:center;
 }
 
 /* backgrounds */
@@ -105,6 +110,8 @@ input[type="radio"] {
     top: 93%;
 }
 
+
+
 .btn:hover {
     transform: scale(1.4);
 }
@@ -141,6 +148,7 @@ input[type="radio"]:checked#slide-4-trigger~div.slide-wrapper>div#slide-role {
     left: -300%;
 }
 
+
 /* button logic */
 
 input[type="radio"]:checked+label.btn {
@@ -159,24 +167,28 @@ input[type="radio"]:checked+label.btn::after {
 
 @media only screen and (max-width: 750px) {
     .slide-wrapper {
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
     .btn:nth-of-type(1) {
         left: 93%;
-        bottom: 60%;
+        bottom: 100%;
     }
     .btn:nth-of-type(2) {
         left: 93%;
-        bottom: 50%;
+        bottom: 90%;
     }
     .btn:nth-of-type(3) {
         left: 93%;
-        bottom: 40%;
+        bottom: 80%;
     }
     .btn:nth-of-type(4) {
         left: 93%;
-        bottom: 30%;
+        bottom: 70%;
+    }
+    .btn:nth-of-type(5) {
+        left: 93%;
+        bottom: 60%;
     }
 }
 
@@ -193,4 +205,6 @@ input[type="radio"]:checked+label.btn::after {
     .btn:nth-of-type(4) {
         left: 91%;
     }
+    
+
 }

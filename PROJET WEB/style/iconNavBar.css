@@ -1,3 +1,9 @@
+@font-face{
+  font-family: "beaufort";
+  src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
+}
+
+
 .icon-bar {
   z-index: 50;
   margin-left: -1%;
@@ -139,7 +145,7 @@ transition: background-size 2s;
 
 .navigation {
   width: 99%;
-  z-index: 50;
+  z-index: 100;
 }
 .content{
   position: absolute;
@@ -151,6 +157,7 @@ transition: background-size 2s;
 list-style: none;
 padding: 0;
 margin: 0;
+z-index: 100;
 
 }
 .mainmenu a, .mainmenu label {
@@ -158,16 +165,19 @@ display: block;
 text-decoration: none;
 padding: 0px;
 color: #fff
+
 }
 
 
 /* hide the input */
 .mainmenu input {
 display: none;
+z-index: 100;
 }
 /* if a sibling checkbox is check show the menu */
 .mainmenu input:checked ~ .submenu {
   position:relative;
+  z-index: 100;
   display:block;
   max-height: 300px;
   width: auto;
@@ -180,7 +190,7 @@ overflow:scroll;
 max-height: 0;
 max-width: 100%;
 transition: all 0.3s ease-out;
-z-index: 10;
+z-index: 100;
 margin-top: 5%;
 text-align: center;
 
