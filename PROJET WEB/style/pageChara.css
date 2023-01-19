@@ -41,6 +41,10 @@
   width: 42%;
   
 }
+.logo_general{
+  width: 75px;
+  height: 75px;
+}
 
 .video{
   display: block;

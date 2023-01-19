@@ -81,16 +81,21 @@ body{
   position: absolute;
   margin-left: 33%;
   margin-top: 15%;
-  font-size: 130%;
+  font-size: 150%;
   font-family: "beaufort", serif;
   
+}
+
+.logo_general{
+  width: 75px;
+  height: 75px;
 }
 
 
 @media screen and (min-width: 601px) {
   .zeri22{
     position: absolute;
-    margin-top: 55%;
+    margin-top: 79%;
     color: black;
     margin-left: 72%;
     font-size: 450%;
@@ -103,7 +108,7 @@ body{
   }
   .etoilemontante{
     position: absolute;
-    margin-top: 55%;
+    margin-top: -30%;
     color: black;
     margin-left: 65%;
     font-size: 200%;
