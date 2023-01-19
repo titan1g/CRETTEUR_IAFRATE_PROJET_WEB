@@ -123,12 +123,11 @@ transition: background-size 2s;
 
 
 .logo {
-  margin-left: 0%;
-  width: 50%;  
-  overflow: auto; 
-  background-color:rgb(13, 14, 14, 1);
   position: absolute;
-  display: block;
+  left: 0;
+  height: 100%;
+  filter: drop-shadow(0 0 1rem black) opacity(80%) grayscale(0.5);  position: absolute;
+  margin-left: 0%;
 }
 .logo a {
   float: left;

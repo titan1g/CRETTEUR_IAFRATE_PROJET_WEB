@@ -1,8 +1,6 @@
-@font-face{
-    font-family: "beaufort";
-    src: url("../style/Beaufort\ for\ LOL\ Bold.ttf") format("truetype");
-  }
-footer{
+
+
+footer {
     background: #111;
     height: 17vw;
     width: 100vw;
@@ -11,111 +9,103 @@ footer{
     color: #fff;
     margin-left: -1%;
     margin-bottom: -7%;
-   
 }
 
-.footer-content{
+.top {
+    left: 0;
+    position: absolute;
+    top: 0;
+    padding: 2vw 8vw 0.5vw 2vw;
+    width: 100%;
+}
+
+.underlineFooter {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(130deg, #6b6b6b, #111111 70%);
+}
+
+.top img {
+    height: 2vw;
+    padding: 0 0.5vw;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.top img:hover {
+    opacity: 1;
+}
+
+.bot {
     display: flex;
+    position: absolute;
+    left: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 45%;
+    top: 5vw;
+}
+
+.logos a:first-child img {
+    width: 6vw;
+}
+
+.logos a img {
+    width: 10vw;
+    padding: 0 1vw 0 0;
+}
+
+.logos a:nth-child(2) {
+    border-left: 0.1vw solid;
+    border-color: white;
+}
+
+.links {
+    display: flex;
     flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h3{
-    font-size: 0.7rem;
-    font-weight: 400;
-    margin-top: -8%;
-    text-transform: capitalize;
-    line-height: 3rem;
-    font-family: "beaufort", serif;
-}
-
-.footer-content p{
-    max-width: 500px;
-    margin-top: -5%;
-    line-height: 28px;
-    font-size: 10px;
-    font-family: "beaufort", serif;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    align-items: start;
+    width: 50%;
+    top: 5vw;
+    color: #7d7d7d;
+    font-size: 1vw;
 }
 
-.socials li{
-    margin-top: -10%;
+.githubLinks {
+    opacity: 0.5;
+    transition: all 0.3s;
 }
 
-.socials a{
+.githubLinks:hover {
+    opacity: 1;
+}
+
+.links a {
     text-decoration: none;
-    color: #fff;
-
+    color: #7d7d7d;
+    border-color: white !important;
+    border-left: 0.1vw solid;
+    padding: 0 1vw;
 }
 
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
+.links a:last-child {
+    border-right: 0.1vw solid;
 }
 
-.socials a:hover i{
-    color: aqua;
+.links p {
+    max-width: 80%;
+    margin: 2vw 0;
 }
-
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-
-}
-
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
-
-@media screen and (min-width: 601px) {
-    .footer-content h3{
-        font-size: 1.8rem;
-        font-weight: 400;
-        margin-top: 0%;
-        text-transform: capitalize;
-        line-height: 3rem;
-        font-family: "beaufort", serif;
-    }
-    
-    .footer-content p{
-        max-width: 500px;
-        margin-top: 0%;
-        line-height: 28px;
-        font-size: 14px;
-        font-family: "beaufort", serif;
-    }
-    footer{
-        background: #111;
-        height: 17vw;
-        width: 100vw;
-        font-family: "beaufort", serif;
-        padding-top: 40px;
-        color: #fff;
-        margin-left: -0.5%;
-        margin-bottom: -7%;
-       
-    }
-    .socials li{
-        margin-top: 0%;
-    }
-    
-  
-  }
