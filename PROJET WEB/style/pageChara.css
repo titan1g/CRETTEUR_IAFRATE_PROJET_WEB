@@ -19,13 +19,9 @@
   
   body{
     color: white;
-    margin-left: -1.5px;
-    margin-top: 000px;
-    margin-bottom: 100px;
     background-image: url("../images/fonds/wallpaperpagechara.jpg");
-    background-position: 0px 80px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
    
@@ -47,10 +43,11 @@
 }
 
 .video{
-  margin-left: 13%;
-  
-  margin-top: 40%;
-  margin-bottom: 12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  margin-bottom: 10%;
 }
 
 

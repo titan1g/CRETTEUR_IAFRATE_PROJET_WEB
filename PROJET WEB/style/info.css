@@ -26,15 +26,11 @@
 
 
 body{
-  
-  margin-left: -1.5px;
-  margin-top: 000px;
-  margin-bottom: 100px;
   background-image: url("../images/fonds/fond-chara\(1\).png");
-  background-position: 0px 80px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
   
 }
 
