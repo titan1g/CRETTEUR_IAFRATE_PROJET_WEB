@@ -12,7 +12,7 @@ Nous espérons que notre site vous correspondra.
 
 
 
-# Programmer avec 
+# Programmé avec amour
 HTML5 et CSS
 
 
