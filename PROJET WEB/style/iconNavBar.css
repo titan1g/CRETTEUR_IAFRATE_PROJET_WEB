@@ -7,13 +7,16 @@
 .icon-bar {
   z-index: 50;
   margin-left: -1%;
-  width: 101%;  
-  overflow: auto; 
+  width: 101%; 
+  overflow: none; 
   background-color: rgba(13, 14, 14, 1);
   position: fixed;
   display: block;
   margin-top: -1%;
+  height: 12.5%;
 }
+
+
 .icon-bar a {
   float: left;
   position:relative ;
@@ -24,7 +27,7 @@
   transition: all 0.3s ease;
   color: white; 
   font-size: 0px; 
-  margin-top: 10px;
+  margin-top: 9px;
 }
 
 .icon-bar a:hover {
@@ -42,16 +45,15 @@
 
 
 .carte {
-  margin-left: 53%;
+  margin-left: 49%;
   z-index: 55;
-  width: 40%;  
+  width: 50%;  
   overflow: auto; 
   background-color: rgba(13, 14, 14, 1);
   position:absolute;
   position: fixed;
   display: block;
-  
-  margin-top: 0.9%;
+  margin-top: 1%;
 }
 
 .carte a {
@@ -72,8 +74,8 @@
   background:
   linear-gradient(
     to right,
-    rgb(13, 14, 14, 0.5),
-    rgb(13, 14, 14, 0.5)
+    rgba(13, 14, 14, 0),
+    rgb(13, 14, 14, 0)
   ),
   linear-gradient(
     to right,
@@ -85,6 +87,7 @@ background-size: 100% 3px, 0 3px;
 background-position: 100% 100%, 0 100%;
 background-repeat: no-repeat;
 transition: background-size 2s;
+margin-left: 10%;
 }
 
 .poutre:hover{
@@ -121,7 +124,6 @@ transition: background-size 2s;
 
 .logo {
   margin-left: 0%;
-
   width: 50%;  
   overflow: auto; 
   background-color:rgb(13, 14, 14, 1);
@@ -144,7 +146,7 @@ transition: background-size 2s;
 
 
 .navigation {
-  width: 99%;
+  width: 100%;
   z-index: 100;
 }
 .content{
@@ -179,13 +181,14 @@ z-index: 100;
   position:relative;
   z-index: 100;
   display:block;
-  max-height: 300px;
+  max-height: 800px;
   width: auto;
-  background-color: rgba(13, 14, 14, 1);
+  
+  background-color: rgb(13, 14, 14, 1);
 }
 
 .submenu {
-  background-color: rgba(13, 14, 14, 1);
+  background-color: rgb(13, 14, 14, 1);
 overflow:scroll;
 max-height: 0;
 max-width: 100%;
@@ -201,3 +204,4 @@ text-align: center;
   cursor: pointer;
   margin-top: 11px;
 }
+

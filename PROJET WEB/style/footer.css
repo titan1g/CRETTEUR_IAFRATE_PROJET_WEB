@@ -4,7 +4,7 @@
   }
 footer{
     background: #111;
-    height: auto;
+    height: 17vw;
     width: 100vw;
     font-family: "beaufort", serif;
     padding-top: 40px;
@@ -23,8 +23,9 @@ footer{
 }
 
 .footer-content h3{
-    font-size: 1.8rem;
+    font-size: 0.7rem;
     font-weight: 400;
+    margin-top: -8%;
     text-transform: capitalize;
     line-height: 3rem;
     font-family: "beaufort", serif;
@@ -32,9 +33,9 @@ footer{
 
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
+    margin-top: -5%;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 10px;
     font-family: "beaufort", serif;
 }
 .socials{
@@ -46,7 +47,7 @@ footer{
 }
 
 .socials li{
-    margin: 0 10px;
+    margin-top: -10%;
 }
 
 .socials a{
@@ -83,3 +84,38 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+
+@media screen and (min-width: 601px) {
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 0%;
+        text-transform: capitalize;
+        line-height: 3rem;
+        font-family: "beaufort", serif;
+    }
+    
+    .footer-content p{
+        max-width: 500px;
+        margin-top: 0%;
+        line-height: 28px;
+        font-size: 14px;
+        font-family: "beaufort", serif;
+    }
+    footer{
+        background: #111;
+        height: 17vw;
+        width: 100vw;
+        font-family: "beaufort", serif;
+        padding-top: 40px;
+        color: #fff;
+        margin-left: -0.5%;
+        margin-bottom: -7%;
+       
+    }
+    .socials li{
+        margin-top: 0%;
+    }
+    
+  
+  }

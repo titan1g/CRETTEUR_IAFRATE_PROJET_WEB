@@ -8,13 +8,13 @@
   .news1 > a{
     position: absolute;
     z-index: 0;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 4%;
     width: 27%;
-    height: 31vw;
+    height: 50vw;
     background-color: rgba(18, 18, 18, 0.8);
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
-    border-radius: 20px;
+    border-radius: 31px;
     cursor: pointer;
     text-decoration: none;
     font-family: "beaufort", serif;
@@ -26,10 +26,10 @@
   .news  > a{
     z-index: -100;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 35.7%;
     width: 27%;
-    height: 31vw;
+    height: 50vw;
     background-color: rgba(18, 18, 18, 0.8);
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
     border-radius: 20px;
@@ -42,10 +42,10 @@
   .news2 > a{
     z-index: -100;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 67.5%;
     width: 27%;
-    height: 31vw;
+    height: 50vw;
     background-color: rgba(18, 18, 18, 0.8);
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
     border-radius: 20px;
@@ -63,7 +63,7 @@
     margin-top: 4%;
     margin-left: 3.2%;
     position: absolute;
-    width: 90%;
+    width: 80%;
     transition: transform .5s ease;
   }
   
@@ -74,11 +74,83 @@
     text-align: center;
     font-family: "beaufort", serif;
     text-decoration: none;
+    font-size: 100%;
   }
   
   .textenews{
     color: #fff;
     text-align: center;
     font-family: "beaufort", serif;
+    font-size: 1.4vw;
+  }
+
+  @media screen and (min-width: 601px) {
+    .textenews {
+      font-size:1.5vw;
+    }
+    .news1 > a{
+      position: absolute;
+      z-index: 0;
+      margin-top: 15%;
+      margin-left: 4%;
+      width: 27%;
+      height: 31vw;
+      background-color: rgba(18, 18, 18, 0.8);
+      box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "beaufort", serif;
+      z-index: 10;
+      
+    }
+    .news  > a{
+      z-index: -100;
+      position: absolute;
+      margin-top: 15%;
+      margin-left: 35.7%;
+      width: 27%;
+      height: 31vw;
+      background-color: rgba(18, 18, 18, 0.8);
+      box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "beaufort", serif;
+      z-index: 10;
+    }
+    
+    .news2 > a{
+      z-index: -100;
+      position: absolute;
+      margin-top: 15%;
+      margin-left: 67.5%;
+      width: 27%;
+      height: 31vw;
+      background-color: rgba(18, 18, 18, 0.8);
+      box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "beaufort", serif;
+      z-index: 10;
+    }
+    .titre{
+      color: #fff;
+      margin-top: 58%;
+      text-align: center;
+      font-family: "beaufort", serif;
+      text-decoration: none;
+      font-size: 150%;
+      
+    }
+    .newArticlesImg {
+      margin-top: 4%;
+      margin-left: 3.2%;
+      position: absolute;
+      width: 90%;
+      transition: transform .5s ease;
+    }
+
   }
   
