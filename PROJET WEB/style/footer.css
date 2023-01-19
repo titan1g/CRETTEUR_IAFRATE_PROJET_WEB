@@ -14,7 +14,7 @@ footer {
 .top {
     left: 0;
     position: absolute;
-    top: 0;
+    margin-top: -3.2%;
     padding: 2vw 8vw 0.5vw 2vw;
     width: 100%;
 }
